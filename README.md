@@ -17,6 +17,8 @@
 ```
 
 # Usage
+This app is es6 based, so it runs on an es6 environment base.
+
 Install the necessary modules before opening the server.
 ```
 > npm i express dotenv nunjucks
