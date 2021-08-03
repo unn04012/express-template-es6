@@ -9,6 +9,7 @@
   "bin": {
     "estemplate": "./index.js"
   },
+  "repository": "https://github.com/unn04012/express-template-es6.git",
   "keywords": [
     "express"
   ],
