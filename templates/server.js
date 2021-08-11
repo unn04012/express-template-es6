@@ -3,9 +3,9 @@ const serverTemplate =
 import path from 'path';
 import dotenv from 'dotenv';
 
-import Index from './routes/Index';
+import Index from './routes/index.js';
 
-import App from './app';
+import App from './app.js';
 
 
 
@@ -49,7 +49,8 @@ const routes = [
 /**
  * DEFINE MIDDLEWARES
  */
-
+const __dirname = path.resolve();
+ 
 const middlewares = [    
     express.static(path.join(__dirname, 'public')),
     express.json(),
